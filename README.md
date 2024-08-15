@@ -6,3 +6,4 @@ Designed and implemented a comprehensive data engineering solution leveraging Az
   +	CI/CD Implementation: Set up Azure DevOps for continuous integration and deployment, streamlining the release process for ADF artefacts.
 
 # Project Architecture
+
