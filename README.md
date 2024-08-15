@@ -30,5 +30,6 @@ To do this project, i have created
 # Data ingestion from Azure Blob
 Here the idea is to ingest the data which are uploaded in the Azure Blob Storage to the Azure DataLake Storage using the Azure Data Factory Pipeline.
 In order to do that, the requirement is given below.
+
 <img width="530" alt="blob_to_datalake" src="https://github.com/user-attachments/assets/fc08b16b-d043-4a20-988e-0c0183103a25">
 
