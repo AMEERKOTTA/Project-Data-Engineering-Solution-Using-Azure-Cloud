@@ -17,3 +17,13 @@ Below the Architecture Diagram.
 
 <img width="529" alt="architecture_diagram" src="https://github.com/user-attachments/assets/cf396379-1d57-4e25-9e9b-3eb9715fbedd">
 
+# Environmental Setup
+To do this project, i have created 
+  - Azure Subscription (free Azure Subscription)
+  - Azure Data Factory
+  - Azure Blob Storage
+  - Azure Data Lake Gen 2
+  - Azure SQL Database
+  - Azure Databricks Cluster
+  - Azure HDInsight Cluster
+
