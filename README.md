@@ -33,3 +33,13 @@ In order to do that, the requirement is given below.
 
 <img width="530" alt="blob_to_datalake" src="https://github.com/user-attachments/assets/fc08b16b-d043-4a20-988e-0c0183103a25">
 
+Requirements for doing this copy activity in ADF
+
+  - Source --> Azure Blob Stotrage
+  - Destination or Sink --> Azure Datalake Storage
+  - Source Dataset
+  - Linked Service for Source Dataset
+  - Sink Dataset
+  - Linked Service for Sink Dataset
+  - Copy Activity from ADF
+  - and Pipeline to include all these components.
