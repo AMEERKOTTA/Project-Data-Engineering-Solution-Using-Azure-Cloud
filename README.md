@@ -43,3 +43,5 @@ Requirements for doing this copy activity in ADF
   - Linked Service for Sink Dataset
   - Copy Activity from ADF
   - and Pipeline to include all these components.
+
+For this task i have 4 files, Collect the data from ECDC website and Upload the files to Azure Blob Storage and the Ingest those files to the Azure DataLake Storage.
