@@ -9,5 +9,9 @@ Designed and implemented a comprehensive data engineering solution leveraging Az
 
 
 # Project Architecture
+Here is the overall project architecture.
 <img width="527" alt="project_architecture" src="https://github.com/user-attachments/assets/33f0d385-e970-4bce-8fba-1b8fb1f34af6">
+
+Below the Architecture Diagram.
+<img width="529" alt="architecture_diagram" src="https://github.com/user-attachments/assets/cf396379-1d57-4e25-9e9b-3eb9715fbedd">
 
