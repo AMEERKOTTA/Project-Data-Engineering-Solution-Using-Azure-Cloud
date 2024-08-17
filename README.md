@@ -27,7 +27,7 @@ To do this project, i have created
   - Azure Databricks Cluster
   - Azure HDInsight Cluster
 
-# Data ingestion from Azure Blob
+# Data ingestion from Azure Blob Storage to Azure DataLake Storage.
 Here the idea is to ingest the data which are uploaded in the Azure Blob Storage to the Azure DataLake Storage using the Azure Data Factory Pipeline.
 In order to do that, the requirement is given below.
 
