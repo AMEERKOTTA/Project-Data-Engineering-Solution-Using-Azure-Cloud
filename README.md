@@ -57,4 +57,6 @@ The Real World Problems i tried to implement in the Pipelines.
   - After that the File in the Blob Storage which ingested will be deleted by a Delete Activity.
   - Implemented trigger to the Pipelines so that the Pipeline will run by Uploading the population file to the Source Blob Storage.
 
+<img width="953" alt="pipeline1" src="https://github.com/user-attachments/assets/830eefd1-883a-4030-bfca-92c77d4cd22a">
+
 # Data ingestion from HTTP to Azure DataLake Storage.
