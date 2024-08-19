@@ -48,6 +48,8 @@ Initially i tested the Data Pipeline by ingesting one file from Azure Blob Stora
 The Real World Problems i tried to implement in the Pipelines.
 
   - Applied Copy Data to Collect the file from Blob Storage to Data Lake Storage.
-  - Validation Activity - Check if the File is Present in the Location (Source)
+  - Validation Activity - Check if the File is Present in the Location (Source).
+  - Get Metadata Activity - This will get the metadata of the file that is to ingested.
+  - If Condition Activity - This is associated with the Get Metadata Output, if the get metadata output (column count is matching, the it will trigger the Copy Data Operation.)
 
 For this task i have 4 files, Collect the data from ECDC website and Upload the files to Azure Blob Storage and the Ingest those files to the Azure DataLake Storage.
