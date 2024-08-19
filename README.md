@@ -60,3 +60,6 @@ The Real World Problems i tried to implement in the Pipelines.
 <img width="953" alt="pipeline1" src="https://github.com/user-attachments/assets/830eefd1-883a-4030-bfca-92c77d4cd22a">
 
 # Data ingestion from HTTP to Azure DataLake Storage.
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/cad265d7-a005-4750-b04d-b3facc1c32ca">
+
