@@ -48,6 +48,6 @@ Initially i tested the Data Pipeline by ingesting one file from Azure Blob Stora
 The Real World Problems i tried to implement in the Pipelines.
 
   - Applied Copy Data to Collect the file from Blob Storage to Data Lake Storage.
-  - 
+  - Validation Activity - Check if the File is Present in the Location (Source)
 
 For this task i have 4 files, Collect the data from ECDC website and Upload the files to Azure Blob Storage and the Ingest those files to the Azure DataLake Storage.
