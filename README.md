@@ -55,5 +55,6 @@ The Real World Problems i tried to implement in the Pipelines.
   - So in the If Condition, the column check will happen, two option is when true and false
   - When the Column Count Matches, the Copy Data Operation will be executed in the Pipeline.
   - After that the File in the Blob Storage which ingested will be deleted by a Delete Activity.
+  - Implemented trigger to the Pipelines so that the Pipeline will run by Uploading the population file to the Source Blob Storage.
 
 For this task i have 4 files, Collect the data from ECDC website and Upload the files to Azure Blob Storage and the Ingest those files to the Azure DataLake Storage.
