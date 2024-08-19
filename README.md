@@ -51,5 +51,9 @@ The Real World Problems i tried to implement in the Pipelines.
   - Validation Activity - Check if the File is Present in the Location (Source).
   - Get Metadata Activity - This will get the metadata of the file that is to ingested.
   - If Condition Activity - This is associated with the Get Metadata Output, if the get metadata output (column count is matching, the it will trigger the Copy Data Operation.)
+  - From the Metadata Activity, it is possible to collect the data points like Column Count, File Size etc.
+  - So in the If Condition, the column check will happen, two option is when true and false
+  - When the Column Count Matches, the Copy Data Operation will be executed in the Pipeline.
+  - After that the File in the Blob Storage which ingested will be deleted by a Delete Activity.
 
 For this task i have 4 files, Collect the data from ECDC website and Upload the files to Azure Blob Storage and the Ingest those files to the Azure DataLake Storage.
