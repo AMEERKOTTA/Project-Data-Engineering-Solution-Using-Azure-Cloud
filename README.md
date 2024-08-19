@@ -44,4 +44,10 @@ Requirements for doing this copy activity in ADF
   - Copy Activity from ADF
   - and Pipeline to include all these components.
 
+Initially i tested the Data Pipeline by ingesting one file from Azure Blob Storage to Azure Data lake Storage by Copy Activity.
+The Real World Problems i tried to implement in the Pipelines.
+
+  - Applied Copy Data to Collect the file from Blob Storage to Data Lake Storage.
+  - 
+
 For this task i have 4 files, Collect the data from ECDC website and Upload the files to Azure Blob Storage and the Ingest those files to the Azure DataLake Storage.
