@@ -63,3 +63,10 @@ The Real World Problems i tried to implement in the Pipelines.
 
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/cad265d7-a005-4750-b04d-b3facc1c32ca">
 
+Files/Data to be Ingested from HTTP (ECDC Website/Github Page) to Azure Data lake Storage.
+ 1. Covid 19 - New Cases and Death by Country
+ 2. Covid 19 - Hospital Admissions and ICU Cases
+ 3. Covid 19 - Testing Numbers
+ 4. Covid 19 - Country Response
+
+
