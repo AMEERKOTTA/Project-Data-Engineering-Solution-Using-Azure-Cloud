@@ -7,14 +7,11 @@ Designed and implemented a comprehensive data engineering solution leveraging Az
 # Azure Services Used in this Project. 
 <img width="500" alt="services_used" src="https://github.com/user-attachments/assets/a153d522-9861-47c7-a903-62bd29af73c8">
 
-
 # Project Architecture
 Here is the overall project architecture.
-
 <img width="527" alt="project_architecture" src="https://github.com/user-attachments/assets/33f0d385-e970-4bce-8fba-1b8fb1f34af6">
 
 Below the Architecture Diagram.
-
 <img width="529" alt="architecture_diagram" src="https://github.com/user-attachments/assets/cf396379-1d57-4e25-9e9b-3eb9715fbedd">
 
 # Environmental Setup
@@ -30,7 +27,6 @@ To do this project, i have created
 # Data ingestion from Azure Blob Storage to Azure DataLake Storage.
 Here the idea is to ingest the data which are uploaded in the Azure Blob Storage to the Azure DataLake Storage using the Azure Data Factory Pipeline.
 In order to do that, the requirement is given below.
-
 <img width="530" alt="blob_to_datalake" src="https://github.com/user-attachments/assets/fc08b16b-d043-4a20-988e-0c0183103a25">
 
 Requirements for doing this copy activity in ADF
@@ -56,10 +52,8 @@ The Real World Problems i tried to implement in the Pipelines.
   - When the Column Count Matches, the Copy Data Operation will be executed in the Pipeline.
   - After that the File in the Blob Storage which ingested will be deleted by a Delete Activity.
   - Implemented trigger to the Pipelines so that the Pipeline will run by Uploading the population file to the Source Blob Storage.
-
 <img width="953" alt="pipeline1" src="https://github.com/user-attachments/assets/830eefd1-883a-4030-bfca-92c77d4cd22a">
 
 # Data ingestion from HTTP to Azure DataLake Storage.
-
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/cad265d7-a005-4750-b04d-b3facc1c32ca">
 
