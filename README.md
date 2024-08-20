@@ -77,6 +77,35 @@ To develop a Pipeline for Ingesting Data from HTTP to Azure Data Lake required d
  - Copy Activity
  - Pipeline
 
+The Pipeline is created to collect 4 files from ECDC Website. This is a Metadata Driven Pipeline.
+The links to collect the Files are given below
+[
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/AMEERKOTTA/",
+        "sourceRelativeURL":"Project-Data-Engineering-Solution-Using-Azure-Cloud/main/ECDC%20Data/cases_deaths.csv",
+        "sinkFileName":"cases_deaths.csv"
+    },
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/AMEERKOTTA/",
+        "sourceRelativeURL":"Project-Data-Engineering-Solution-Using-Azure-Cloud/main/ECDC%20Data/hospital_admissions.csv",
+        "sinkFileName":"hospital_admissions.csv"
+    },
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/AMEERKOTTA/",
+        "sourceRelativeURL":"Project-Data-Engineering-Solution-Using-Azure-Cloud/main/ECDC%20Data/testing.csv",
+        "sinkFileName":"testing.csv"
+    },
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/AMEERKOTTA/",
+        "sourceRelativeURL":"Project-Data-Engineering-Solution-Using-Azure-Cloud/main/ECDC%20Data/country_response.csv",
+        "sinkFileName":"country_response.csv"
+    }
+]
+I have collected the links to get the BaseURL, RelativeURL and given the Fiilename to Save the FIles in Azure DataLake Storage.
+The Pipeline is Automated by a Scheduled Trigger which will run every 15 minutes.
+In that case it is possible to get the updated data for every 15 Minutes.
+
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/388bfdca-6d6b-47da-bbd3-1c2bc2a0ec37">
 
 
 
