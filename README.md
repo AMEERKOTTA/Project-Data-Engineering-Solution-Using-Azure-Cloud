@@ -77,13 +77,20 @@ To develop a Pipeline for Ingesting Data from HTTP to Azure Data Lake required d
  - Copy Activity
  - Pipeline
 
-The Pipeline is created to collect 4 files from ECDC Website. This is a Metadata Driven Pipeline.
-The links to collect the Files are given below in this link which is the lookup file (.json file) : 
-I have collected the links to get the BaseURL, RelativeURL and given the Fiilename to Save the FIles in Azure DataLake Storage.
-The Pipeline is Automated by a Scheduled Trigger which will run every 15 minutes.
-In that case it is possible to get the updated data for every 15 Minutes.
++ The Pipeline is created to collect 4 files from ECDC Website. This is a Metadata Driven Pipeline.
++ The links to collect the Files are given below in this link which is the lookup file (.json file) : 
++ I have collected the links to get the BaseURL, RelativeURL and given the Fiilename to Save the FIles in Azure DataLake Storage.
++ The Pipeline is Automated by a Scheduled Trigger which will run every 15 minutes.
++ In that case it is possible to get the updated data for every 15 Minutes.
 
 <img width="958" alt="image" src="https://github.com/user-attachments/assets/388bfdca-6d6b-47da-bbd3-1c2bc2a0ec37">
+
+Triggers and Pipeline Runs
+
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/a27694cc-6ad3-4d43-b75e-700da53b5a35">
+
+<img width="952" alt="image" src="https://github.com/user-attachments/assets/10bc957c-6755-4338-b990-a26035942e96">
+
 
 
 
