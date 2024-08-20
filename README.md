@@ -69,4 +69,14 @@ Files/Data to be Ingested from HTTP (ECDC Website/Github Page) to Azure Data lak
  3. Covid 19 - Testing Numbers
  4. Covid 19 - Country Response
 
+To develop a Pipeline for Ingesting Data from HTTP to Azure Data Lake required different components as shown in the figure.
+ - Linked Service to Collect Data from HTTP
+ - Dataset to Collect the Data from HTTP
+ - Linked Service to Upldoad the Data to Azure Data Lake
+ - Dataset to Upload Data to the Azure Data Lake
+ - Copy Activity
+ - Pipeline
+
+
+
 
