@@ -1,0 +1,22 @@
+[
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/AMEERKOTTA/",
+        "sourceRelativeURL":"Project-Data-Engineering-Solution-Using-Azure-Cloud/main/ECDC%20Data/cases_deaths.csv",
+        "sinkFileName":"cases_deaths.csv"
+    },
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/AMEERKOTTA/",
+        "sourceRelativeURL":"Project-Data-Engineering-Solution-Using-Azure-Cloud/main/ECDC%20Data/hospital_admissions.csv",
+        "sinkFileName":"hospital_admissions.csv"
+    },
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/AMEERKOTTA/",
+        "sourceRelativeURL":"Project-Data-Engineering-Solution-Using-Azure-Cloud/main/ECDC%20Data/testing.csv",
+        "sinkFileName":"testing.csv"
+    },
+    {
+        "sourceBaseURL":"https://raw.githubusercontent.com/AMEERKOTTA/",
+        "sourceRelativeURL":"Project-Data-Engineering-Solution-Using-Azure-Cloud/main/ECDC%20Data/country_response.csv",
+        "sinkFileName":"country_response.csv"
+    }
+]
