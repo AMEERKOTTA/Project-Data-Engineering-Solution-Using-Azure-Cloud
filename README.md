@@ -93,3 +93,16 @@ Triggers and Pipeline Runs
 
 # Cases and Deaths Data Transformation
 In this task i have transformed the cases and deaths csv file using Azure Data Factory.
+I have done the transformnation using Azure Data Factory Data Flow Method.
+
+Steps in the Transformations
+ - Overview about DataFlow
+ - Source Transformation
+ - Filter Transformation
+ - Select Transformtaion
+ - Pivot Transformation
+ - Lookup Transformation
+ - Sink Transformation
+ - Create a Pipeline for the Transformation.
+
+
