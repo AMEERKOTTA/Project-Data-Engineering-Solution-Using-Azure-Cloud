@@ -108,4 +108,18 @@ Steps in the Transformations
 
 
 # Hospital and ICU admissions Data Transformation
+This is also done using the Dataflow method. The steps in Transformations are
+  - Source Transformation
+  - Select Transformation
+  - Lookup Transformation
+  - Pivot Transformation
+  - Sink Transformation
+  - Conditional Split Transformation
+  - Derived Column Transfromation
+  - Aggregate Transformation
+  - Sort Transformation
+  - join Transformation
+  - Create Pipeline
+
+<img width="958" alt="image" src="https://github.com/user-attachments/assets/086bd926-8751-443a-81bf-591ae99b2dcd">
 
