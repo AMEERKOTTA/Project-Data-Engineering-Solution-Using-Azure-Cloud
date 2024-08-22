@@ -96,7 +96,6 @@ In this task i have transformed the cases and deaths csv file using Azure Data F
 I have done the transformnation using Azure Data Factory Data Flow Method.
 
 Steps in the Transformations
- - Overview about DataFlow
  - Source Transformation
  - Filter Transformation
  - Select Transformtaion
@@ -104,6 +103,9 @@ Steps in the Transformations
  - Lookup Transformation
  - Sink Transformation
  - Create a Pipeline for the Transformation.
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/62465618-3612-41df-8598-d1394fe72b3d">
+
 
 # Hospital and ICU admissions Data Transformation
 
