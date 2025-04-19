@@ -3,7 +3,8 @@ Designed and implemented a comprehensive data engineering solution leveraging Az
   +	Data Integration: Configured ADF pipelines for seamless data integration from HTTP clients and storage solutions, utilizing control flow activities and metadata-driven pipelines.
   +	Data Transformation: Developed and executed data transformation logic with ADF Mapping Data Flows and Databricks notebooks.
   +	Advanced Analytics: Monitored and analysed pipeline performance using Azure Monitor and Log Analytics, creating alerts and visualizations.
-  +	CI/CD Implementation: Set up Azure DevOps for continuous integration and deployment, streamlining the release process for ADF artefacts. 
+  +	CI/CD Implementation: Set up Azure DevOps for continuous integration and deployment, streamlining the release process for ADF artefacts.
+
 # Azure Services Used in this Project.  
 
 
